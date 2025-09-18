@@ -1,7 +1,7 @@
 import heapq
 import random
 
-# Goal state of the 8-puzzle
+# Goal state
 GOAL_STATE = ((1, 2, 3), (4, 5, 6), (7, 8, 0))
 DIRECTIONS = [(-1, 0), (1, 0), (0, -1), (0, 1)]  # Moves: up, down, left, right
 
